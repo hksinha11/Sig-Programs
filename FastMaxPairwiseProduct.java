@@ -1,3 +1,5 @@
+package algorithm;
+
 import java.util.*;
 import java.io.*;
 
@@ -13,9 +15,9 @@ public class MaxPairwiseProduct {
 	}
 	int max_index2=-1;
 	for(int j=0;j<n;++j)
-		if((j!=max_index1)&&(((max_index2==-1)||(numbers[i]>numbers[max_index2]))
+		if((j!=max_index1)&&(((max_index2==-1)||(numbers[j]>numbers[max_index2]))))
 			max_index2=j;
-        return ((long)(numbers[max_index1]))*numbers[max_index2];
+        return ((numbers[max_index1]))*numbers[max_index2];
         
 	
     }
@@ -29,6 +31,7 @@ public class MaxPairwiseProduct {
         }
         System.out.println(getMaxPairwiseProduct(numbers));
     }
+
 
     static class FastScanner {
         BufferedReader br;
@@ -57,5 +60,4 @@ public class MaxPairwiseProduct {
             return Integer.parseInt(next());
         }
     }
-
 }
