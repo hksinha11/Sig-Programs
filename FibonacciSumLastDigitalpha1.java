@@ -25,7 +25,8 @@ public class FibonacciSumLastDigitalpha1 {
 
 	}
 */	
-
+// Knowing the piasano period was really fruitful in solving these problems
+	
    private static long getFibonacciSum(long from,long to) {
 		
 		long sum=0;	
