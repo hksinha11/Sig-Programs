@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class FibonacciSumLastDigitalpha {
+public class FibonacciSumLastDigit {
 /*public static long piasoperiod(int m)
 	{
 		long a=0,b=1,c=a+b;
